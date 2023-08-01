@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000000;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  #catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    border-color: red;
+  }
+
+  .titulo {
+    width: 20vw;
+  }
+
+  .menu {
+    width: 80vw;
+  }
