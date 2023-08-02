@@ -3,23 +3,78 @@ body {
     margin: 20px;
     background-color: #000000;
   }
+
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
   
   h1 {
     text-align: center;
-    color: red;
+    color: #FFFFFF;
   }
   
-  #catalogo-container {
+  #catalog-container {
     display: grid;
+    padding: 40px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    border-color: red;
-  }
-
-  .titulo {
-    width: 20vw;
+    border-color: 1px solid #FAFAFA;
+    color: #FFFFFF;
+    text-align: center;
   }
 
   .menu {
-    width: 80vw;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #3a3c3d;
+  }
+
+  #catalog-container img {
+    width: 300px;
+  }
+
+  #catalog-container img :hover{
+    transition: 2s;
+  }
+
+  #catalog-container p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pelicula img p {
+    text-align: center;
+  }
+
+  #agregar-pelicula {
+    width: 300px;
+    height: 75VH;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+  }
+
+  .form {
+    vertical-align:middle !important;
+  }
+
+  #footer {
+    border-top: 1px solid #3a3c3d;
+    padding: 30px;
+  }
+
+  #footer p {
+    color:#9c9999;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+
+  #footer a{
+    color: #fa8fb1 !important;
+    letter-spacing: 1.5px;
   }
